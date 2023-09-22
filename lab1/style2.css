@@ -1,0 +1,35 @@
+.header { grid-area: header; }
+.nav { grid-area: nav;}
+.index { grid-area: index; }
+.content { grid-area: content; }
+.footer { grid-area: footer; }
+
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'nav nav nav nav nav nav'
+    'index content content content content content'
+    'footer footer footer footer footer footer';
+  width: 40%;
+  padding: 10px;
+}
+
+.grid-container > div {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.index{
+    height: 300px;
+}
+
+.header, .nav, .footer{
+    height: 70px;
+}
+

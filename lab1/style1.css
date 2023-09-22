@@ -1,0 +1,36 @@
+table, td{
+    border: 2px solid black;
+}
+
+table{
+    width: 40%;
+}
+
+#header, #footer{
+    background-color: #D3D3D3;
+}
+
+#header p{
+    font-size: 35px;
+    font-weight: bold;
+    margin: 0 0 35px 0;
+}
+
+#main-menu{
+    width: 20%;
+    background-color: #EEE8AA;
+}
+
+#main-menu div{
+    margin: 0 0 50px 0;
+}
+
+#content{
+    background-color: #FFFAFA;
+}
+
+#footer p{
+    text-align: center;
+    margin: 0;
+}
+

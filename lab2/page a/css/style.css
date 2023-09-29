@@ -1,0 +1,181 @@
+body{
+    color: #B6B6B6;
+    font-size: 16px;
+    font-family: Tahoma, Arial, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pix_builder_bg{
+    height: fit-content;
+}
+
+.header_style{
+    height: 80px;
+}
+
+.header_style .container{
+    padding-top: 15px;
+}
+
+.alpha{
+    float: left;
+}
+
+.omega{
+    float: right;
+}
+
+.header_style .container .two-thirds.column.omega{
+    display: flex;
+}
+
+.header_style .container .two-thirds.column.omega a{
+    padding-right: 5px;
+}
+
+.header_style .container .htext_style{
+    padding-right: 20px;
+    padding-top: 5px;
+}
+
+.big_padding{
+    padding: 80px 0px;
+    height: 400px;
+}
+
+.eight.columns{
+    width: 50%;
+}
+
+.btn_normal{
+    border-radius: 8px;
+    color: white;
+    border: none;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.editContent{
+    line-height: 1.5;
+}
+
+.bold_text{
+    font-weight: bold;
+}
+
+.big_text{
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.big_title{
+    margin: 10px 0 10px 0;
+    font-size: 50px;
+    color: white;
+}
+
+.L1_style, .L2_style{
+    text-align: center;
+    line-height: 2;
+    margin: 0;
+}
+
+.L1_style{
+    font-size: 22px;
+    padding-top: 30px;
+    color: #696969;
+}
+
+.L2_style{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.normal_text{
+    margin: 10px 0 10px 0;
+}
+
+.blue_text{
+    color: #2DC0E8;
+}
+
+.light_gray{
+    color: #949494;
+}
+
+.dark{
+    background-color: #333333;
+}
+
+.blue_bg{
+    background-color: #2DC0E8;
+}
+
+.stbox{
+    background-color: white;
+    border-radius: 5px; 
+    margin: 5px;
+    width: 48%;
+}
+
+.stbox .b_style{
+    float: left;
+    padding: 20px 10px;
+    background-color: #F5F5F5;
+}
+
+.stbox .txt_style > *{
+    margin: 0;
+    padding: 15px;
+}
+
+.center_text{
+    text-align: center;
+}
+
+.f1_style{
+    color: green;
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+
+.f2_style{
+    width: 60%;
+    margin: auto;
+}
+
+#section_normal_6{
+    background-color: #EEEEEE;
+    height: 300px;
+}
+
+#section_agency_5{
+    padding-top: 30px;
+}
+
+.second_link{
+    border: 2px solid green;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 30px;
+    cursor: pointer;
+}
+
+.second_link a{
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+}

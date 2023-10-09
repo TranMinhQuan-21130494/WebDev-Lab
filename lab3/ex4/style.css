@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #E3E3E3;
+}
+
+.container .form{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 400px;
+    margin: 10px auto;
+    padding: 30px 25px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.form > div{
+    margin-bottom: 20px;
+}
+
+.title{
+    color: #7ED321;
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+
+.input{
+    display: flex;
+    width: 100%;
+    height: 35px;
+    margin-bottom: 10px;
+    background-color: #F9F9F9;
+    border: 2px solid #EDEDED;
+    border-radius: 5px;
+}
+
+.icon{
+    width: 15px;
+    height: 15px;
+    padding: 10px;
+    border-right: 2px solid #EDEDED;
+}
+
+input{
+    background-color: #F9F9F9;
+    height: 100%;
+    width: 90%;
+    padding-left: 20px;
+    border: none;
+}
+
+#form_1{
+    display: flex;
+    flex-direction: column;
+}
+
+#form_2{
+    display: flex;
+    justify-content: space-between;
+}
+
+#form_2 > div{
+    width: 49%;
+}
+
+#dob{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#dob > .input{
+    padding: 0px;
+    height: 35px;
+    text-align: center;
+    width: 28%;
+    border-radius: 5px;
+}
+
+#dob > .input > input{
+    padding: 0px;
+    text-align: center;
+}
+
+#gender{
+    display: flex;
+    justify-content: space-between;
+}
+
+.active{
+    color: white;
+    background-color: #7ED321 !important;
+}
+
+#gender button{
+    width: 50%;
+    height: 37px;
+    border: 2px solid #EDEDED;
+    background-color: #F9F9F9;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button_group{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button_group button{
+    padding-top: 8px;
+    padding-left: 40px;
+    display: flex;
+    width: 50%;
+    height: 35px;
+    border: 2px solid #EDEDED;
+    background-color: #F9F9F9;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button img{
+    padding-right: 5px;
+    height: 20px;
+}
+
+.divide{
+    display: flex;
+    justify-content: space-between;
+}
+
+.divide > *{
+    width: 49%;
+}
+
+#check{
+    display: flex;
+    justify-content: space-between;
+}
+
+#check p{
+    font-size: 12px;
+    color: gray;
+}

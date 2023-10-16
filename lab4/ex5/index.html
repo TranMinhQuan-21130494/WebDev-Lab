@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container" style="width: 100px; height: 100px; margin: 200px auto;">
+        <img src="firefox-logo.svg" alt="" width="100px" height="100px">
+    </div>
+    
+
+    <script src="../../jquery/jquery-3.7.1.js"></script>
+    <script>
+        var degree = 0;
+        function rotate(){
+            degree += 15
+            $("img").css("transform", `rotate(${degree}deg)`)
+            console.log(degree)
+        }
+
+        setInterval(rotate, 2000);
+    </script>
+</body>
+</html>
